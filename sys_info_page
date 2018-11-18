@@ -2,6 +2,7 @@
 
 # Program to output a system information page
 
+<<<<<<< HEAD
 TITLE="System Information Report For $HOSTNAME"
 
 echo "<HTML>
@@ -10,5 +11,15 @@ echo "<HTML>
          </HEAD>
          <BODY>
                 <H1>$TITLE</H1>
+=======
+title="System Information Report"
+
+echo "<HTML>
+         <HEAD>
+               <TITLE>$title</TITLE>
+         </HEAD>
+         <BODY>
+                <H1>$title</H1>
+>>>>>>> 77742300dfd2f2e0388c5f1184d84283fa438fae
          </BODY>
 </HTML>"
